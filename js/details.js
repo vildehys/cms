@@ -2,11 +2,11 @@ const containerCards = document.querySelector(".container");
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
-const url = "http://vhys.one/wp-json/wc/store/products/";
+const url = "https://vhys.one/wp-json/wc/store/products/";
 
 
 async function fetchDetails() {
-    
+
     try {
         
 
