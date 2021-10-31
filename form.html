@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Days - Contact </title>
+    <link rel="icon" href="data:;base64,="/>
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3ddee7a10c.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa fa-bars"></i></i></label>
+            <input type="checkbox" id="hamburger-menu">
+            <nav>
+                <ul class="content">
+                    <li><a href="#">Male</a></li>
+                    <li><a href="female.html">Female</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li><a href="info.html"><i class="fas fa-question-circle"></i></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>If you have any questions about our products or our site, please leave us a message through our contact form below</h1>
+        <main class="container">
+            <form id="contactForm">
+                <div class="submit-form">
+                <div class=formContent>
+                <div>
+                    <h2>First name</h2>
+                    <input name="firstname" id="firstName" placeholder="Required">
+                    <div class="signUpError" id ="errorFirstName">Name is required</div>
+                </div> 
+                <div>
+                    <h2>Last name</h2>
+                    <input name="lastname" id="lastName" placeholder="Required">
+                    <div class="signUpError" id ="errorLastName">Name is required</div>
+                </div> 
+                <div>
+                    <h2>E-mail</h2>
+                    <input name="email" id="email" placeholder="Email">
+                    <div class="signUpError" id ="errorEmail">E-mail is required</div>
+                </div>
+                <div>
+                    <h2>Subject</h2>
+                    <input name="subject" id="subject" placeholder="Minimum length of 10">
+                    <div class="signUpError" id ="errorSubject">Subject is required</div>
+                </div> 
+                <div class="request">
+                    <h2>Please enter your request here</h2>
+                    <input name="text" id="text" placeholder="Minimum length of 25">
+                    <div class="signUpError" id ="errorText">Please enter your request</div>
+                </div> 
+                <button>Submit</button>  
+            </div>    
+            <div class="success"></div>
+            </form>
+        </main>
+    <script src="js/form.js"></script>
+</body>
+<footer>
+    <div class="socials">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fas fa-envelope"></i>
+    </div>
+    <h6> Copyright @ 2021, RainyDays. <br> All rights reserved </h6></footer>
+</html>

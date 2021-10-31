@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "lato";
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.checkout-forms {
+  display: flex;
+  justify-content: center;
+}
+
+.checkouts {
+  width: 60%;
+}
+
+.shipping-form {
+  display: flex;
+  width: 100%;
+  height: 275px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  margin-bottom: 20px;
+}
+
+.shippingform-content {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.payment-form {
+  display: flex;
+  width: 100%;
+  height: 275px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.paymentform-content {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 25px;
+  background-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #093641;
+}
+
+.button1:hover {
+  background-color: #bfbd8a;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 400px) {
+  .shipping-form {
+    height: 230px;
+  }
+
+  .payment-form {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+  .shipping-form {
+    height: 280px;
+  }
+
+  .payment-form {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    max-width: 95%;
+  }
+}

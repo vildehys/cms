@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0%;
+}
+
+footer {
+  background-color: #286e77;
+}
+
+.images {
+  height: 300px;
+}
+
+.container {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-rows: repeat;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+  justify-items: center;
+  margin-top: 7rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "lato";
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+h2 {
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #707070;
+}
+
+h3 {
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 1.5rem;
+  color: #707070;
+}
+
+p {
+  font-family: "lato", sans-serif;
+  margin-left: 4px;
+  margin-bottom: 60px;
+  font-size: 1rem;
+  color: #707070;
+}
+
+.button {
+  font-family: "lato";
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 25px;
+  background-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #093641;
+}
+
+.button:hover {
+  background-color: #bfbd8a;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
