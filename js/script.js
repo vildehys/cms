@@ -2,8 +2,8 @@ const baseUrl ="http://vhys.one/wp-json/wc/store/products";
 const productContainer = document.querySelector(".container");
 
 async function getProducts(baseUrl) {
-
-    const response = await fetch (baseUrl)
+  try {
+    const response = await fetch(baseUrl);
     const products = await response.json();
 
     products.forEach(function(product) {
@@ -16,8 +16,11 @@ async function getProducts(baseUrl) {
         <p>${product.prices.price} NOK | 3 colors </p>
         <a class="button" href="details.html?id=${product.id}">Read More</a>
         </div>`;
-})
-
+     });
+  } catch (err) {
+      console.error(err);
+  }
+    
 }
 
 getProducts(baseUrl);
