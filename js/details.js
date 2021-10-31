@@ -6,6 +6,7 @@ const url = "http://vhys.one/wp-json/wc/store/products/";
 
 
 async function fetchDetails() {
+    
     try {
         
 
@@ -19,10 +20,11 @@ async function fetchDetails() {
     createHtml(specifics);
 
 }
+
 catch(error) {
     console.log(error);
     containerCards.innerHTML = message("error", error);
-}
+    }
 }
 
 fetchDetails()
