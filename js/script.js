@@ -1,4 +1,4 @@
-const baseUrl ="https://vhys.one/wp-json/wc/store/products";
+const baseUrl ="https://vildehys.no/RainyDays2/wp-json/wc/store/products";
 const productContainer = document.querySelector(".container");
 
 async function getProducts(baseUrl) {
